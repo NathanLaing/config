@@ -1,0 +1,11 @@
+require("nathan.plugins-setup")
+require("nathan.core.options")
+require("nathan.core.keymaps")
+require("nathan.core.colorscheme")
+require("nathan.plugins.comment")
+require("nathan.plugins.nvim-tree")
+require("nathan.plugins.lualine")
+require("nathan.plugins.telescope")
+require("nathan.plugins.nvim-cmp")
+require("nathan.plugins.lsp.mason")
+
