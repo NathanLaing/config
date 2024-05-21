@@ -42,3 +42,13 @@ luac.out
 
 
 plugin/packer_compiled.lua
+.env_vars
+alacritty/themes
+gh
+github-copilot
+iterm2
+zed
+jgit
+configstore
+simple-update-notifier
+
