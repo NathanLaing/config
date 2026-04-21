@@ -1,6 +1,6 @@
 # Compiled Lua sources
 luac.out
-
+plugin/packer_compiled.lua
 
 # luarocks build files
 *.src.rock
@@ -40,16 +40,24 @@ luac.out
 *.x86_64
 *.hex
 
+# Logs
+*.log
 
-plugin/packer_compiled.lua
 .env_vars
+
+# IDEs
+.idea
+
+# Ignored config
 alacritty/themes
 gh
 github-copilot
 iterm2
 zed
 jgit
-configstore
 simple-update-notifier
-
-.idea
+/configstore/
+/gcloud/
+/gtk-2.0/
+/gtk-3.0/
+/nvim_old/

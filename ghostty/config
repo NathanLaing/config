@@ -1,0 +1,9 @@
+# theme = catppuccin-frappe
+
+# background-opacity = 0.6
+# background-blur-radius = 20
+
+custom-shader = shaders/cursor_warp.glsl
+custom-shader = shaders/ripple_cursor.glsl
+
+custom-shader-animation = always
