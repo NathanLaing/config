@@ -45,6 +45,9 @@ plugin/packer_compiled.lua
 
 .env_vars
 
+# OS
+.DS_Store
+
 # IDEs
 .idea
 
