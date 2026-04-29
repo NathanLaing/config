@@ -1,35 +1,36 @@
 {
   "profiles" : [
     {
-      "id" : "75A4C59C-A2BC-416B-BC16-61432B4D1AEC",
+      "id" : "3712B92E-02E5-406A-9741-77CDE676A683",
       "name" : "Default",
       "workspaces" : [
         {
           "apps" : [
             {
-              "bundleIdentifier" : "company.thebrowser.Browser",
-              "iconPath" : "/Applications/Arc.app/Contents/Resources/AppIcon.icns",
-              "name" : "Arc"
-            },
-            {
+              "autoOpen" : true,
               "bundleIdentifier" : "com.mitchellh.ghostty",
               "iconPath" : "/Applications/Ghostty.app/Contents/Resources/Ghostty.icns",
               "name" : "Ghostty"
+            },
+            {
+              "autoOpen" : true,
+              "bundleIdentifier" : "com.google.Chrome",
+              "iconPath" : "/Applications/Google Chrome.app/Contents/Resources/app.icns",
+              "name" : "Google Chrome"
+            },
+            {
+              "autoOpen" : true,
+              "bundleIdentifier" : "com.jetbrains.WebStorm",
+              "iconPath" : "/Applications/WebStorm.app/Contents/Resources/webstorm.icns",
+              "name" : "WebStorm"
             }
           ],
           "display" : "Built-in Retina Display",
-          "id" : "3BAC4470-2AAB-4DEE-B6FB-D667976341D5",
+          "id" : "A70A00DB-9139-4D49-A852-C20B4A90D998",
           "name" : "Default",
-          "openAppsOnActivation" : false,
-          "shortcut" : "cmd+f1"
+          "openAppsOnActivation" : true
         },
         {
-          "appToFocus" : {
-            "autoOpen" : true,
-            "bundleIdentifier" : "com.mitchellh.ghostty",
-            "iconPath" : "/Applications/Ghostty.app/Contents/Resources/Ghostty.icns",
-            "name" : "Ghostty"
-          },
           "apps" : [
             {
               "autoOpen" : true,
@@ -39,51 +40,39 @@
             }
           ],
           "display" : "Built-in Retina Display",
-          "id" : "AD9C8086-73E3-42CC-9402-0E588D1C3831",
+          "id" : "07D643E4-2C9A-4443-ABE4-5F664D63B9FD",
           "name" : "Terminal",
           "openAppsOnActivation" : true,
           "shortcut" : "cmd+f12",
-          "symbolIconName" : "camera.metering.matrix"
+          "symbolIconName" : "barcode"
         },
         {
-          "appToFocus" : {
-            "autoOpen" : true,
-            "bundleIdentifier" : "com.jetbrains.WebStorm",
-            "iconPath" : "/Users/nathan/Applications/WebStorm.app/Contents/Resources/webstorm.icns",
-            "name" : "WebStorm"
-          },
           "apps" : [
             {
               "autoOpen" : true,
               "bundleIdentifier" : "com.jetbrains.WebStorm",
-              "iconPath" : "/Users/nathan/Applications/WebStorm.app/Contents/Resources/webstorm.icns",
+              "iconPath" : "/Applications/WebStorm.app/Contents/Resources/webstorm.icns",
               "name" : "WebStorm"
             }
           ],
-          "display" : "Q32G2WG4",
-          "id" : "54F0D0D1-8B9C-41AA-8CC9-51EA34A9F0BC",
+          "display" : "Built-in Retina Display",
+          "id" : "EFFEFBA0-37BE-41BA-9755-1C6ADB534640",
           "name" : "Code",
           "openAppsOnActivation" : true,
           "shortcut" : "cmd+f11",
           "symbolIconName" : "laptopcomputer"
         },
         {
-          "appToFocus" : {
-            "autoOpen" : true,
-            "bundleIdentifier" : "company.thebrowser.Browser",
-            "iconPath" : "/Applications/Arc.app/Contents/Resources/AppIcon.icns",
-            "name" : "Arc"
-          },
           "apps" : [
             {
               "autoOpen" : true,
-              "bundleIdentifier" : "company.thebrowser.Browser",
-              "iconPath" : "/Applications/Arc.app/Contents/Resources/AppIcon.icns",
-              "name" : "Arc"
+              "bundleIdentifier" : "com.google.Chrome",
+              "iconPath" : "/Applications/Google Chrome.app/Contents/Resources/app.icns",
+              "name" : "Google Chrome"
             }
           ],
           "display" : "Built-in Retina Display",
-          "id" : "D15B2FC2-70AF-43EC-A8EE-EDBD46AFA3B5",
+          "id" : "BCD1CC3F-430C-4BF4-910C-37A3FD1F0047",
           "name" : "Browser",
           "openAppsOnActivation" : true,
           "shortcut" : "cmd+f10",
@@ -99,27 +88,11 @@
             }
           ],
           "display" : "Built-in Retina Display",
-          "id" : "39363988-5352-4181-A628-9411F141CAB1",
+          "id" : "A1A9C682-4754-44BC-BC7B-4D4F05F88738",
           "name" : "Music",
           "openAppsOnActivation" : true,
           "shortcut" : "cmd+f9",
           "symbolIconName" : "music.note"
-        },
-        {
-          "apps" : [
-            {
-              "autoOpen" : true,
-              "bundleIdentifier" : "com.google.GeminiMacOS",
-              "iconPath" : "/Applications/Gemini.app/Contents/Resources/AppIconRelease.icns",
-              "name" : "Gemini"
-            }
-          ],
-          "display" : "Built-in Retina Display",
-          "id" : "DB94C8EA-8AEE-4E31-8638-E0293FEF68AE",
-          "name" : "AI",
-          "openAppsOnActivation" : true,
-          "shortcut" : "cmd+f8",
-          "symbolIconName" : "brain"
         }
       ]
     }
