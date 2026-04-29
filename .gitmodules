@@ -29,3 +29,6 @@
 [submodule "tmux/plugins/vim-tmux-navigator"]
 	path = tmux/plugins/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:NathanLaing/kickstart.nvim.git

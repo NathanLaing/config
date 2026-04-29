@@ -1,6 +1,6 @@
 theme = catppuccin-frappe
 
-custom-shader = ./shaders/cursor_warp.glsl
-custom-shader = ./shaders/ripple_cursor.glsl
+custom-shader = ~/.config/ghostty/shaders/cursor_warp.glsl
+custom-shader = ~/.config/ghostty/shaders/ripple_cursor.glsl
 
 custom-shader-animation = always
