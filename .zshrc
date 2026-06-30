@@ -87,3 +87,22 @@ alias gemini="GOOGLE_CLOUD_PROJECT=phq-gemini-assist gemini"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# ---- tmuxp integration ----
+# Custom tmux launcher via tmuxp
+tm() {
+  local project_name="$1"
+  
+  if [ -z "$project_name" ]; then
+    echo "Please provide a project name."
+    return 1
+  fi
+
+  # Check if a tmuxp config exists for this project
+  if [ -f "$HOME/.tmuxp/${project_name}.yaml" ] || [ -f "$HOME/.tmuxp/${project_name}.yml" ]; then
+    tmuxp load "$project_name"
+  else
+    # Fallback to normal tmux creation
+    tmux new -s "$project_name"
+  fi
+}
