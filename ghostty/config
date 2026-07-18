@@ -1,4 +1,6 @@
 theme = catppuccin-frappe
+font-family = "JetBrainsMono Nerd Font Mono"
+font-size = 14
 
 custom-shader = ~/.config/ghostty/shaders/cursor_warp.glsl
 custom-shader = ~/.config/ghostty/shaders/ripple_cursor.glsl
